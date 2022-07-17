@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=PT+Sans&family=Rubik&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page - Shopping Cart</title>
+    </head>
+
+    <body>
+        <div class="loading">
+            <div class="loadingWheel"></div>
+        </div>
+        <header>
+            <div class="noti">
+                <img src="Sources/checkboxIcon.png" alt="checkBox" class="checkboxIcon">
+                <span>Added to Cart Successfully</span>
+            </div>
+            <div class="searchSection">
+                <input type="text" class="searchBar" placeholder="Search in Shopping Cart...">
+                <img src="Sources/search icon.png" alt="SearchIcon" class="searchIcon">
+            </div>
+            <div class="headingBackground">
+                <label class="title">Shopping Cart</label>
+                <p>Popular Items in One Place</p>
+            </div>
+        </header>
+        <main>
+            <div class="items">
+                <div class="itembox">
+                    <img src="https://m.media-amazon.com/images/I/51xG-xtY0jL._AC_SY580_.jpg" alt="Razer Kranken X">
+                    <span class="itemName">Razer Kranken X Classic Black</span>
+                    <span class="price">$49.99</span>
+                    <button class="add">Add to Cart</button>
+                    <button class="remove">Remove</button>
+                </div>
+                
+                <div class="itembox">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-spacegray-select-202206?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1653493200207" alt="M1 Mackbook Pro">
+                    <span class="itemName">Apple M1 Macbook Pro</span>
+                    <span class="price">$1,499</span>
+                    <button class="add">Add to Cart</button>
+                    <button class="remove">Remove</button>
+                </div>
+                
+                <div class="itembox">
+                    <img src="https://cdn.shopify.com/s/files/1/0510/7866/0274/products/RK61gamingkeyboard_1_9c7cfd02-7f06-4305-a1b8-d2de6bd8f289.jpg?v=1636444580" alt="RK61 Mechanical Keyboard">
+                    <span class="itemName">RK61 Mechanical Keyboard</span>
+                    <span class="price">$49.99</span>
+                    <button class="add">Add to Cart</button>
+                    <button class="remove">Remove</button>
+                </div>
+                    
+                <div class="itembox">
+                    <img src="https://m.media-amazon.com/images/I/61mpMH5TzkL._SL1500_.jpg" alt="Logitech G502">
+                    <span class="itemName">Logitech G502</span>
+                    <span class="price">$39.99</span>
+                    <button class="add">Add to Cart</button>
+                    <button class="remove">Remove</button>
+                </div>
+    
+                <div class="itembox">
+                    <img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08238244.png" alt="HP Pavilion 15-dk2085nia">
+                    <span class="itemName">HP Pavilion 15-dk2085nia</span>
+                    <span class="price">$1099.99</span>
+                    <button class="add">Add to Cart</button>
+                    <button class="remove">Remove</button>
+                </div>
+    
+                <div class="itembox">
+                    <img src="https://cdn.shopify.com/s/files/1/0301/2263/9499/products/2_cb18e24f-5214-4f3f-ad60-24f61f65340b.jpg?v=1610098314" alt="Playstation 5">
+                    <span class="itemName">Sony Playstation 5</span>
+                    <span class="price">$499.99</span>
+                    <button class="add">Add to Cart</button>
+                    <button class="remove">Remove</button>
+                </div>
+    
+                <div class="itembox">
+                    <img src="https://www.ikea.com/my/en/images/products/klippan-2-seat-sofa-vissle-grey__0820948_pe709146_s5.jpg?f=s" alt="KLIPPAN 2 seat sofa">
+                    <span class="itemName">KLIPPAN 2 Seat Sofa</span>
+                    <span class="price">$219.99</span>
+                    <button class="add">Add to Cart</button>
+                    <button class="remove">Remove</button>
+                </div>
+    
+                <div class="itembox">
+                    <img src="https://www.ikea.com/om/en/images/products/malm-bed-frame-high-black-brown__0638608_pe699032_s5.jpg" alt="MALM Bed Frame">
+                    <span class="itemName">MALM Bed Frame</span>
+                    <span class="price">$272.99</span>
+                    <button class="add">Add to Cart</button>
+                    <button class="remove">Remove</button>
+                </div>
+            </div>
+            <div class="cartIcon">
+                <img src="Sources/shopping cart.png" alt="Shopping Cart Icon">
+            </div>
+            <div class="cartSection">
+                <div class="nav">
+                    <img src="Sources/angle left icon.png" alt="LeftAngleIcon">
+                    <label class="cartTitle">Your Cart</label>
+                </div>
+                <div class="cartItems"></div>
+                <button class="purchase">Purchase</button>
+            </div>
+        </main>
+        
+        <script src="main.js"></script>
+    </body>
+</html>
